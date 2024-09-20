@@ -67,12 +67,9 @@ function validateForm(e) {
     if (x == "") {
       alert("Le champs du formulaire sont requis");
       return false;
-    }
-   
+    } 
   }
   
-
-
   //Gestion de l'evennement keypress 
 // window.document.addEventListener('keypress', ()=>{
 //  let userEnter = prompt('veuillez choisir une lettre')
