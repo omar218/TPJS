@@ -37,10 +37,10 @@ body {
 }
 
 h2{
-    color: red;
+    color: white;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    font-size: medium;
+    font-size: 22px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

@@ -15,6 +15,7 @@ const h3 = document.querySelector('h3')
 })
 
 
+
 let division = document.querySelector('div')
 division.addEventListener('mousemove', ()=>{
     division.style.backgroundColor= "orange"
@@ -23,6 +24,7 @@ division.addEventListener('mousemove', ()=>{
     division.style.color = "white"
     division.textContent = "Salut 10000 codeurs je suis Fall Omar fullstack ambassadeur 10000 codeurs detenteur du passeport numerique"
 })
+
 division.addEventListener('mouseout', ()=>{
     division.style.backgroundColor="blue"
     division.textContent = "Javascript dans la poche, merci a tous "
