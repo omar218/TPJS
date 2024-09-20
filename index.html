@@ -11,14 +11,34 @@
     <h1 class="text">Bienvenue sur le TP javascript de Fall Omar</h1>
    
     <div class="box gradient-green green">
-         <h2>Salut les amis</h2></div>
+         <h2>Salut les amis codeurs</h2></div>
 
-    <div class="box gradient-purple purple">
-        <h3>TP-14 septembre 2021 </h3>
+    <div class="box gradient-purple purple" id="purplebox">
+        <h3>TP-21 septembre 2021 </h3>
+        <p id = "text-alternatif1">TP - oriente sur les events dom a realiser</p>
     </div>
 
-    <div class="box gradient-blue blue">
+    <div class="box gradient-blue blue" id="bluebox">
         <h2 id="centre">Centre de formation objiS</h2>
+    </div>
+
+    <div class = "box gradient-red red">
+      <p id="text-alternatif2">
+        Bientot nous organisons le 2ieme forum panafricain sur les metiers du numerique en 
+        cote d'ivoire.
+        N'hesitez pas a remplir ce formulaire pour y participer. 
+        Accompagner la jeunesse ivoirienne dans son autonomisation a travers les metiers du numerique.
+      </p>
+      <form name="myForm" action="" onsubmit="return validateForm()" method="post">
+        <label>Email</label>
+        <input type="text" id="email" class="email" name="email"/>
+        <br/>
+        <label>Contact</label>
+        <input type="tel" id="telephone" class="telephone"/>
+        <label>Paticiper?</label>
+        <input type="checkbox" class="checkbox0"/>
+        <input type="submit" id="envoyerForm"/>
+      </form>
     </div>
 
     <div class="quote">
